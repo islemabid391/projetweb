@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="CSS/stylequiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Interactif</h1>
+        <div id="quiz">
+            <p id="question" class="question"></p>
+            <ul class="options">
+                <li><button class="option" onclick="checkAnswer('a')">a) Option 1</button></li>
+                <li><button class="option" onclick="checkAnswer('b')">b) Option 2</button></li>
+                <li><button class="option" onclick="checkAnswer('c')">c) Option 3</button></li>
+                <li><button class="option" onclick="checkAnswer('d')">d) Option 4</button></li>
+            </ul>
+        </div>
+        <p id="result" class="result"></p>
+        <button id="nextButton" onclick="nextQuestion()">Suivant</button>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="page_accueil.html">Accueil</a></li>
+            <li><a href="bioraphie.html">Bio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="parcours.html">Mon Cursus</a></li>
+            <li><a href="hobbies.html">Passions</a></li>
+            <li><a href="competance.html">Compétance</a></li>
+        </ul>
+    </nav>
+    <script src="quiz.js"></script>
+</body>
+</html>

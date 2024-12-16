@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{font-family: "Playfair Display", serif;}
+body {
+    background-image: linear-gradient(to right, rgb(233, 156, 168), rgb(153, 195, 227));
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;
+}
+#bio-page  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; 
+}
+
+
+#bio-page h2 {
+    color: #000; 
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+}
+
+#bio-page p {
+    color: #0d0d0d;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#bio-page a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#bio-page img {
+    width: 300px; 
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+#bio-page img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar {
+    background-color: #6a9faf; 
+    padding: 10px 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+}
+
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.navbar ul li {
+    margin: 0 15px; 
+}
+
+.navbar ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.navbar ul li a:hover {
+    background-color: #507c89; 
+}

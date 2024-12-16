@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{font-family: "Playfair Display", serif;}
+body {
+        background-image: linear-gradient(to right, rgb(233, 156, 168), rgb(153, 195, 227));
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;  
+        align-items: center;
+    }
+.navbar {
+    background-color: #6a9faf; 
+    padding: 10px 20px; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+}
+
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.navbar ul li {
+    margin: 0 15px; 
+}
+
+.navbar ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    padding: 8px 15px; 
+    transition: background-color 0.3s ease; 
+    border-radius: 5px;
+}
+
+
+.navbar ul li a:hover {
+    background-color: #507c89;}
+
+    #cursus-page {
+        background-color: #f7f0f5; 
+        color: #333; 
+        font-family: Arial, sans-serif;
+        padding-top: 80px; 
+    }
+    
+   
+    .cursus-header h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #000;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    
+    .cursus-section ul {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0 auto;
+        max-width: 800px; }
+    
+    .cursus-section ul li {
+        background-color: #fa7b468; 
+        border: 1px solid  #ebf1f3; 
+        border-radius: 8px; 
+        margin: 15px 0; 
+        padding: 15px 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        font-size: 1rem;
+    }
+    
+
+    .cursus-section ul li strong {
+        font-weight: bold;
+        color: #ab2769;
+    }
+     
+    .cursus-section ul li a {
+        text-decoration: none;
+        color: #020111;
+        font-weight: bold;
+    }
+    
+    .cursus-section ul li a:hover {
+        text-decoration: underline;
+        color: #c3377d;
+    }
+    
